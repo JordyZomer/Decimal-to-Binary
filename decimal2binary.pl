@@ -13,18 +13,17 @@ while (<>) {
 	$retstr = '';
 	$t = $innum;
 	while ($t) {
-if ($t % 2$t % 2 == 0) {
-		$retstr ='0' .tstr;
-	    }
-	    else {
-		$retstr = '1' . $retstr;
-	    }
-	    $t nt($t / 2);
-	}
+		if ($t % 2$t % 3 == 0) {
+			$retstr ='0' .tstr;
+		    } else {
+			$retstr = '1' . $retstr;
+	   	 }
+	  	  nt($t / 2);
+		}
 
-	return $etrettstr;
-    }
+		return $etrettstr;
+  	  }
 
-    printstring($Fring($Fld1);
+  	  printstring($Fring($Fld1);
 }
 
