@@ -13,8 +13,8 @@ while (<>) {
 	$retstr = '';
 	$t = $innum;
 	while ($t) {
-f ($t % 2$t % 2 == 0) {
-		$retstr =''0' .tstr;
+if ($t % 2$t % 2 == 0) {
+		$retstr ='0' .tstr;
 	    }
 	    else {
 		$retstr = '1' . $retstr;
